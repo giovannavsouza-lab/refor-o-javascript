@@ -39,7 +39,12 @@ console.log("Multiplicação:", multiplicacao)
 // Fórmula: F = C * 9/5 + 32
 // ------------------------------------------------------------
 
-
+let celcius = 25
+let fahrenheit = celcius * 9/5 + 32
+console.log("2 - Temos 25 graus, mas qual seria o valor em fahrenheit?")
+console.log("Celsius:", celcius)
+console.log("Então usamos a fórmula :  F = C x 9/5 + 32 ")
+console.log("Então teremos", fahrenheit ,"fahrenheit")
 
 
 // EXERCÍCIO 3 - Par ou ímpar
