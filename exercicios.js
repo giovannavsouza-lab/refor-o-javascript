@@ -20,7 +20,17 @@
 // o resultado da soma, subtração, multiplicação e divisão.
 // ------------------------------------------------------------
 
-
+console.log("1 - A soma, divisão,subtração e multiplicação de 1 por 2 é:")
+let numero = 1
+let numeroDois = 2
+let soma = numero + numeroDois
+let divisao = numero / numeroDois
+let subtracao = numero - numeroDois
+let multiplicacao = numero * numeroDois
+console.log("soma:", soma)
+console.log("Divisão:", divisao)
+console.log("Subutração:", subtracao)
+console.log("Multiplicação:", multiplicacao)
 
 
 // EXERCÍCIO 2 - Conversor de temperatura
