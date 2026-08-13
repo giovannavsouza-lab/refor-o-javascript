@@ -91,6 +91,27 @@ console.log("Então teremos", fahrenheit ,"fahrenheit")
 //   30 ou mais     = "Obesidade"
 // ------------------------------------------------------------
 
+let peso = parseInt(prompt("Digite o seu peso: "))
+let altura = parseInt(prompt("Digite a sua altura: "))
+
+let imc = peso / (altura * altura)
+
+if (imc < 18.5) 
+{
+  alert("Abaixo do Peso")
+} 
+else if (imc < 25.0) 
+{
+alert ("Peso Ideal")
+} 
+else if (imc < 30.0) 
+{
+  alert("Sobrepeso")
+} 
+else if (imc < 40.0) 
+{
+  alert("Obesidade")
+} 
 
 
 
