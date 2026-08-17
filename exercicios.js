@@ -69,8 +69,22 @@ console.log("É par")
 // Se a média for >= 7, mostre "Aprovado".
 // Se não, mostre "Reprovado".
 // ------------------------------------------------------------
+let variavel1 = 2
+let variavel2 = 7
+let variavel3 = 9
 
+let resultado = (variavel1 + variavel2 + variavel3) / 3
 
+console.log("Vamos saber a média do Leon! Ele tirou as seguntes notas: 2 , 7 e 9.")
+console.log("Você consegue adivinhar se ele foi aprovado ou não, sendo a média da escola 7?")
+console.log("Ele foi:")
+
+if ( resultado >= 7 ){
+    console.log("aprovado")
+}
+else{
+    console.log("Desaprovado")
+}
 
 
 // ============================================================
