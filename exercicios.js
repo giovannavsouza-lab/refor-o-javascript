@@ -53,7 +53,7 @@ console.log("Então teremos", fahrenheit ,"fahrenheit")
 // Dica: use o operador % (resto da divisão)
 // Se numero % 2 === 0, é par.
 // ------------------------------------------------------------
-
+console.log("3 - Par oou ímpar")
 let numero1 = 7
 
 if(numero % 2 === 0){
@@ -69,6 +69,7 @@ console.log("É par")
 // Se a média for >= 7, mostre "Aprovado".
 // Se não, mostre "Reprovado".
 // ------------------------------------------------------------
+console.log("4 - Média de notas")
 let variavel1 = 2
 let variavel2 = 7
 let variavel3 = 9
@@ -97,7 +98,7 @@ else{
 // Se for >= 18, mostre "Maior de idade".
 // Se não, mostre "Menor de idade".
 // ------------------------------------------------------------
-
+console.log("5 - Idades pra beber")
 let idade = 13
 
 if (idade >= 18){
@@ -117,6 +118,7 @@ else{
 //   30 ou mais     = "Obesidade"
 // ------------------------------------------------------------
 
+console.log("6 - Calculadora de imc")
 let peso = 52
 let altura = 1.52
 
@@ -130,7 +132,7 @@ console.log("Peso normal")
     console.log("Sobrepeso")
     }else if(imc <= 30.0){
         console.log("Obesidade")
-        }
+        }//eu sou obesa não fi , vai se ferrar calculadora.
 
 
 
@@ -143,9 +145,13 @@ console.log("Peso normal")
 //   let computador = opcoes[Math.floor(Math.random() * 3)]
 // Compare as jogadas e mostre quem ganhou.
 // ------------------------------------------------------------
+console.log("7 - Pedra, papel ou tesoura")
+let jogada1 = papel
+let jogada2 = tesoura 
+let jogada3 = pedra 
 
-
-
+let opcoes = ['papel', 'pedra', 'tesoura']
+let computador = opcoes[Math.floor(Math.random() * 3)]
 
 // EXERCÍCIO 8 - Sistema de notas
 // Crie uma variável com uma nota de 0 a 10.
