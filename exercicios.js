@@ -162,7 +162,7 @@ let computador = opcoes[Math.floor(Math.random() * 3)]
 //   4 e 3    = "D"
 //   2, 1, 0  = "F"
 // ------------------------------------------------------------
-
+console.log("8 - Sistema de notas")
 
 
 
