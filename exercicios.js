@@ -146,12 +146,13 @@ console.log("Peso normal")
 // Compare as jogadas e mostre quem ganhou.
 // ------------------------------------------------------------
 console.log("7 - Pedra, papel ou tesoura")
-let jogada1 = papel
-let jogada2 = tesoura 
-let jogada3 = pedra 
+let jogada1 = "papel"
+let jogada2 = "tesoura"
+let jogada3 = "pedra"
 
 let opcoes = ['papel', 'pedra', 'tesoura']
 let computador = opcoes[Math.floor(Math.random() * 3)]
+
 
 // EXERCÍCIO 8 - Sistema de notas
 // Crie uma variável com uma nota de 0 a 10.
@@ -163,6 +164,19 @@ let computador = opcoes[Math.floor(Math.random() * 3)]
 //   2, 1, 0  = "F"
 // ------------------------------------------------------------
 console.log("8 - Sistema de notas")
+let notas = 8
+
+if(notas == 9 || notas == 10){
+    console.log("A")
+}else if(notas == 8  || notas == 7){
+console.log("B")
+}else if(notas == 6 || notas == 5){
+    console.log("C")
+}else if(notas == 4 || notas == 3){
+    console.log("D")
+}else{
+    console.log("F")
+}
 
 
 
@@ -225,6 +239,10 @@ console.log("8 - Sistema de notas")
 // Chame a função e mostre o resultado no console.
 // Exemplo: saudacao("Maria") retorna "Olá, Maria!"
 // ------------------------------------------------------------
+// let saudacao = prompt("Qual é seu nome?")
+// function(){
+    
+// }
 
 
 
@@ -273,9 +291,15 @@ console.log("8 - Sistema de notas")
 // Mostre a lista no console.
 // Remova o último item com pop() e mostre a lista novamente.
 // ------------------------------------------------------------
+console.log("17 - Lista de compras")
+let listaCompras = ['pão', 'Yogurt' , 'queijo' , 'carne']
+console.log (listaCompras)
 
 
+console.log (listaCompras)
 
+
+listaCompras.push('queijo')
 
 // EXERCÍCIO 18 - Maior e menor
 // Crie um array com 8 números diferentes.
