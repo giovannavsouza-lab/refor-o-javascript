@@ -1,3 +1,4 @@
+const prompt = require('prompt-sync')()
 // ============================================================
 //  LISTA DE EXERCÍCIOS - JAVASCRIPT
 // ============================================================
@@ -193,6 +194,10 @@ console.log("B")
 //   "5 x 2 = 10"
 //   ... até "5 x 10 = 50"
 // ------------------------------------------------------------
+let numeroTabuada = parseInt(prompt("Digite o numero pra tabuada: "))
+for (let i = 0; i <= 10; i++){
+    console.log(i * numero_usuario)
+}
 
 
 
